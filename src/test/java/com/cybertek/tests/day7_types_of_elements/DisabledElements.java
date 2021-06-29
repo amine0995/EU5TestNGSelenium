@@ -27,7 +27,9 @@ public class DisabledElements {
         driver.manage().window().maximize();
         driver.get("http://practice.cybertekschool.com/dynamic_controls");
         WebElement inputBox= driver.findElement(By.cssSelector("#input-example>input"));
-        inputBox.sendKeys("text");
+        //inputBox.sendKeys("text");
+        //input[@type='text']
+        Assert.assertFalse(inputBox.isEnabled(),"verify that input box is not enable");
 
     }
 }

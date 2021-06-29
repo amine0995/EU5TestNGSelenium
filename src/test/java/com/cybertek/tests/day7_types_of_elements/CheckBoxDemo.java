@@ -22,11 +22,12 @@ public class CheckBoxDemo {
 
         //verify check box1 is not selected, 2 is selected
         Assert.assertFalse(checkbox1.isSelected(),"verify checkbox1 is not selected");
-        Assert.assertFalse(checkbox2.isSelected(),"verify checkbox2 is not selected");
+        Assert.assertTrue(checkbox2.isSelected(),"verify checkbox2 is  selected");
 
         //hoe to check checkboxes?
         //just like radio button we need to click it
         checkbox1.click();
+
 
         //verify after click
         Assert.assertTrue(checkbox1.isSelected(),"verify checkbox 1 is selected");
