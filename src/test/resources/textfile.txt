@@ -1,0 +1,3 @@
+some text  here
+this is text file
+C:\Users\gebruiker\IdeaProjects\EU5TestNGSelenium\src\test\resources\textfile.txt
